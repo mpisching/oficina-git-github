@@ -5,8 +5,8 @@ Oficina promovida aos professores
 
 ```mermaid
 classDiagram
-Turma "1" <-- "*" Aluno
-Turma "1" <-- "1..2" Professor
+Turma "1" --> "*" Aluno
+Turma "1" --> "1..2" Professor
 
 class Aluno {
     - matricula: int
@@ -22,4 +22,10 @@ class Professor {
 
 class Turma {
     - ano: int
+}
+
+class Comunidade {
+    - nome: String
+    - email: String
+    - contato: String
 }
