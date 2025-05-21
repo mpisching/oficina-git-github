@@ -4,6 +4,10 @@ Oficina promovida aos professores
 ## Projeto git-github
 
 ```mermaid
+classDiagram
+Turma <-- Aluno
+Turma <-- Professor
+
 class Aluno {
     matricula: int
     nome: String
@@ -14,4 +18,8 @@ class Professor {
     siape: String
     nome: String
     titulacao: String
+}
+
+class Turma {
+    ano: int
 }
