@@ -3,6 +3,8 @@ Oficina promovida aos professores
 
 ## Projeto git-github
 
+adicionando um diagrama de classes...
+
 ```mermaid
 classDiagram
 Turma "1" --> "*" Aluno
