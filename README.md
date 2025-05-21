@@ -11,6 +11,7 @@ Turma "1" --> "*" Aluno
 Turma "1" --> "1..2" Professor
 Comunidade <|-- Aluno
 Comunidade <|-- Professor
+Comunidade --> "1" Endereco
 
 class Aluno {
     - matricula: int
@@ -32,4 +33,8 @@ class Comunidade {
     - nome: String
     - email: String
     - contato: String
+}
+
+class Endereco {
+    - cep: String
 }
