@@ -39,4 +39,5 @@ class Comunidade {
 
 class Endereco {
     - cep: String
+    - cidade: String
 }
