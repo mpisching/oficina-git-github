@@ -5,7 +5,7 @@ Oficina promovida aos professores
 
 ```mermaid
 classDiagram
-Turma <-- Aluno
+Turma (1) <-- (*) Aluno
 Turma <-- Professor
 
 class Aluno {
