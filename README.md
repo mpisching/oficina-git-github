@@ -7,6 +7,8 @@ Oficina promovida aos professores
 classDiagram
 Turma "1" --> "*" Aluno
 Turma "1" --> "1..2" Professor
+Comunidade <|-- Aluno
+Comunidade <|-- Professor
 
 class Aluno {
     - matricula: int
