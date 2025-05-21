@@ -9,17 +9,17 @@ Turma <-- Aluno
 Turma <-- Professor
 
 class Aluno {
-    matricula: int
-    nome: String
-    contato: String
+    - matricula: int
+    - nome: String
+    - contato: String
 }
 
 class Professor {
-    siape: String
-    nome: String
-    titulacao: String
+    - siape: String
+    - nome: String
+    - titulacao: String
 }
 
 class Turma {
-    ano: int
+    - ano: int
 }
