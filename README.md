@@ -5,6 +5,8 @@ Oficina promovida aos professores
 
 adicionando um diagrama de classes...
 
+atualizando o arquivo
+
 ```mermaid
 classDiagram
 Turma "1" --> "*" Aluno
